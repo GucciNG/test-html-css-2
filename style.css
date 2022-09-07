@@ -56,21 +56,18 @@ div.upcoming-events {
     padding-top: 100px;
 }
 
-.upcoming-events {
-    align-items: center;
-}
-
 .upcoming-events1 {
     text-align: center;
-    flex-direction: row;
     display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 #paisagem {
-    margin: 50px 50px 0px 50px;
+    margin: 50px 0px 0px 0px;
 }
 
-.texto-imagens {
-    display: flex;
+.text-events {
+    margin: 30px 0px 30px 0px;
 
 }
