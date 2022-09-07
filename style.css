@@ -1,0 +1,76 @@
+div.home {
+    background-image: url(/Images/pexels-hasan-albari-1229861.jpg);
+    color: white;
+    padding-bottom: 600px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+}
+
+#header {
+    margin: 30px 15px 0px 15px;
+}
+
+#logo {
+    margin: 20px 1000px 0px 20px;
+}
+
+#home-text {
+    padding-top: 350px;
+}
+
+#home-text-2 {
+    font-size: 70px;
+}
+
+.home-text {
+    text-align: center;
+}
+
+div.phrase {
+    background-color: rgb(236, 236, 236);
+    padding-bottom: 50px;
+}
+
+#phrase {
+    font-size: larger;
+    text-align: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+div.upcoming-events {
+    background-color: white;
+}
+
+#title-events {
+    text-align: center;
+    font-size: xx-large;
+    padding-top: 100px;
+}
+
+.upcoming-events {
+    align-items: center;
+}
+
+.upcoming-events1 {
+    text-align: center;
+    flex-direction: row;
+    display: flex;
+}
+
+#paisagem {
+    margin: 50px 50px 0px 50px;
+}
+
+.texto-imagens {
+    display: flex;
+
+}
