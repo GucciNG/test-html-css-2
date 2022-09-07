@@ -8,19 +8,23 @@ div.home {
     background-attachment: fixed;
 }
 
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+
 header {
     display: flex;
     flex-direction: row;
     align-items:center;
+    align-content: center;
+
 }
 
 #header {
-    margin: 30px 15px 0px 15px;
+    margin: 20px 15px 0px 15px;
 }
 
-#logo {
-    margin: 20px 1000px 0px 20px;
-}
 
 #home-text {
     padding-top: 350px;
