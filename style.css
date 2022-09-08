@@ -33,10 +33,10 @@ header {
 #home-text-2 {
     font-size: 70px;
 }
-
-.home-text {
+.home-center {
     text-align: center;
 }
+
 
 div.phrase {
     background-color: rgb(236, 236, 236);
@@ -52,6 +52,7 @@ div.phrase {
 
 div.upcoming-events {
     background-color: white;
+    padding-bottom: 100px;
 }
 
 #title-events {
@@ -73,5 +74,30 @@ div.upcoming-events {
 
 .text-events {
     margin: 30px 0px 30px 0px;
+}
 
+.explore-the-learn {
+    background-image: url(images/notebook.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center top;
+    padding: 0px 0px 350px 0px;
+    color: white;
+
+}
+
+.explore-the-learn-text {
+    display: flex;
+    justify-content: space-around;
+}
+
+#learn-text {
+    font-size: xx-large;
+    padding-top: 150px;
+
+}
+
+.dale {
+    padding-bottom: 3000px;
 }
