@@ -37,7 +37,6 @@ header {
     text-align: center;
 }
 
-
 div.phrase {
     background-color: rgb(236, 236, 236);
     padding-bottom: 50px;
@@ -52,13 +51,17 @@ div.phrase {
 
 div.upcoming-events {
     background-color: white;
-    padding-bottom: 100px;
+    
+}
+
+.titles {
+    font-size: xx-large;
 }
 
 #title-events {
     text-align: center;
-    font-size: xx-large;
     padding-top: 100px;
+    padding-bottom: 20px;
 }
 
 .upcoming-events1 {
@@ -66,10 +69,12 @@ div.upcoming-events {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    padding-bottom: 150px;
 }
 
 #paisagem {
-    margin: 50px 0px 0px 0px;
+    margin: 50px 0 0 0;
+    padding: 0;
 }
 
 .text-events {
@@ -82,22 +87,43 @@ div.upcoming-events {
     background-size: cover;
     background-attachment: fixed;
     background-position: center top;
-    padding: 0px 0px 350px 0px;
     color: white;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
 
 }
 
 .explore-the-learn-text {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-start;
+    padding: 200px 0px;
+    margin-right: 10%;
+    margin-left: 10%;
+
 }
 
 #learn-text {
-    font-size: xx-large;
-    padding-top: 150px;
-
+    display: flex;
+    text-align: justify;
+    width: 500px;
 }
 
-.dale {
-    padding-bottom: 3000px;
+.tour-content {
+    padding: 150px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0% 20%;
 }
+
+.tour-text {
+    width: 350px;
+}
+
+.grid {
+    padding: 10px;
+}
+
